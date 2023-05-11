@@ -27,3 +27,21 @@ python3 final33.py # Run the project
 ```
 
 ## 
+
+## If you want to run the Apweb-server app :
+
+```sh
+git clone https://github.com/jsalegria16/pip_env_py.git # Or even a fork
+
+cd web-server # Go to the project folder
+
+python3 -m venv env_webServer # Create the virtual environment
+
+source env_webServer/bin/activate # Activate the environment
+
+pip3 install -r requirements.txt # Install all the modules you need.
+
+python3 main.py # Run the project
+```
+
+## 
