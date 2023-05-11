@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/mnt/c/Users/alegr/OneDrive - unicauca.edu.co/Platzi/Data Science e Inteligencia Artificial/02 Data Scientist con Python/13 PIP y Entornos Virtuales/PIP_entornosVirtuales_py/AppFinal34_GlobalPopulation/env_AppFinal34/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from fontTools.merge import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
