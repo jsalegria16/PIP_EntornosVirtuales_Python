@@ -10,9 +10,14 @@ python3 06_Game.py
 python3 main.py
 ```
 
-## If you want to run the AppFinal34, go to the  folder and run de next command:
+## If you want to run the AppFinal34:
+
 ```sh
-python3 final33.py
+git clone https://github.com/jsalegria16/pip_env_py.git 
+cd AppFinal34_GlobalPopulation # Go to the project folder
+source env_AppFinal34/bin/activate # Activate the environment
+pip3 install -r requirements.txt # Install all the modules you need.
+python3 final33.py # Run the project
 ```
 
 ## 
