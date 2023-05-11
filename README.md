@@ -13,10 +13,16 @@ python3 main.py
 ## If you want to run the AppFinal34:
 
 ```sh
-git clone https://github.com/jsalegria16/pip_env_py.git 
+git clone https://github.com/jsalegria16/pip_env_py.git # Or even a fork
+
 cd AppFinal34_GlobalPopulation # Go to the project folder
+
+python3 -m venv env_AppFinal34 # Create the virtual environment
+
 source env_AppFinal34/bin/activate # Activate the environment
+
 pip3 install -r requirements.txt # Install all the modules you need.
+
 python3 final33.py # Run the project
 ```
 
