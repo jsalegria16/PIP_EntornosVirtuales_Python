@@ -44,7 +44,7 @@ pip3 install -r requirements.txt # Install all the modules you need.
 python3 main.py # Run the project
 ```
 
-### Web server with fast api:
+### Web server with fast api (Store.py file):
 
 ```sh
 git clone https://github.com/jsalegria16/pip_env_py.git # Or even a fork
@@ -64,4 +64,32 @@ uvicorn main:app --reload # Run the server in your PC.
 http://127.0.0.1:8000 # In browser go there. 
 
 ```
-## 
+## Docker to AppFinal34
+
+install docker:
+- [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+-  [https://docs.docker.com/desktop/windows/wsl/](https://docs.docker.com/desktop/windows/wsl/)
+
+
+```sh
+
+git clone https://github.com/jsalegria16/pip_env_py.git # Or even a fork
+
+cd AppFinal34_GlobalPopulation # Go to AppFinal34 project
+
+# Run docker on your PC 
+
+docker-compose build # Create the container,
+
+docker-compose up -d # Turn on the container (**docker-compose down** if you want stop it)
+
+docker-compose exec app_final bash # Acces to the container with in a bash mode.
+
+# you will be in /Docker_AppFinal. This is the proyect. Run it with **python3 final33.py**
+
+exit # get out from docker container.
+
+
+```
+
+
