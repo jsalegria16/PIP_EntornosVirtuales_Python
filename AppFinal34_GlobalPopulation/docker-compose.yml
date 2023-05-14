@@ -1,0 +1,8 @@
+services:
+  app_final:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/Docker_AppFinal 
+    

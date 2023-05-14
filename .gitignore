@@ -175,6 +175,7 @@ celerybeat.pid
 .env
 .venv
 env/
+env_*/
 env_AppFinal34/
 env_game/
 env_charts/
