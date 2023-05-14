@@ -1,12 +1,31 @@
+# Intro
+hi everyone this is a repository with exercises about pip3, virtual environments, and docker, all that using python and the [PIP and virtual environments course of platzi: https://platzi.com/cursos/python-pip/ ](https://platzi.com/cursos/python-pip/)
+
+- We have a game of Stone, paper scissors
+- Graphs with pandas 
+- A web server (here que use an API and create our own server using fastAPI ) 
+- We use docker and put in the mentioned apps
+
+
+
+
 # Steps
  ## If you want to run the game, follow the next steps:
  - Run in the terminal this: 
 ```sh
+git clone https://github.com/jsalegria16/pip_env_py.git # Or even a fork 
+
+cd game
+
 python3 06_Game.py
 ```
 
 ## If you want to run the chart graph, go to the chart folder and run de next command:
 ```sh
+git clone https://github.com/jsalegria16/pip_env_py.git # Or even a fork 
+
+cd charts
+
 python3 main.py
 ```
 
